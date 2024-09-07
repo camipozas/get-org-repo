@@ -1,6 +1,8 @@
 import chalk from 'chalk';
 
-/* It draws a progress bar in the terminal */
+/**
+ * Class to create a progress bar in the terminal
+ */
 export default class ProgressBar {
   total: number;
   current: number;

@@ -7,9 +7,6 @@ const log = console.log;
 
 /**
  * It clones a list of repositories into a local folder
- * @param {string[]} repoNames - An array of strings that represent the names of the repositories to
- * clone.
- * @param {Env} env - An object containing the environment variables.
  */
 export const cloneRepositories = async (repoNames: string[], org: string, folder: string) => {
   const git: SimpleGit = simpleGit();

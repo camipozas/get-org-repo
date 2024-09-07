@@ -1,5 +1,4 @@
 import { request } from '@octokit/request';
-
 import chalk from 'chalk';
 
 import { env } from './env/env';

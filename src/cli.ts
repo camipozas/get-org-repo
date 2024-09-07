@@ -20,8 +20,8 @@ interface PromptAnswers {
 }
 
 /**
- * It asks the user for the GitHub organization, the folder to save the repositories, and the option to
- * run
+ * It asks the user for the GitHub organization,
+ * the folder to save the repositories, and the option to run
  */
 const runCLI = async () => {
   console.log(chalk.blue.bold('🚀 Create your own GitHub organization backup script 🚀'));

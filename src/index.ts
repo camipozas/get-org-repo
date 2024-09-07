@@ -4,6 +4,9 @@ import { getPages, getAllRepositories, accessibleRepos } from './get-repositorie
 import { cloneRepositories } from './clone-repositories';
 import { repoStatus } from './repo-status';
 
+/**
+ * It runs the main script to get the repositories from the organization
+ */
 export const main = async (org: string, folder: string, clone: boolean, status: boolean) => {
   console.log(chalk.blue.bold(`🚀 Getting repositories for ${org} 🚀`));
   const pages = await getPages(org);

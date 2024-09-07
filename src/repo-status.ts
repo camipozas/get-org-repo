@@ -5,8 +5,8 @@ import simpleGit, { SimpleGit } from 'simple-git';
 const log = console.log;
 
 /**
- * It checks the status of the local repository and pulls the latest changes if there are any
- * @param {string[]} repoNames - An array of repository names.
+ * It checks the status of the local repository
+ * and pulls the latest changes if there are any
  */
 export const repoStatus = async (repoNames: string[], folder: string) => {
   const git: SimpleGit = simpleGit();
