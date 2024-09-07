@@ -23,8 +23,8 @@
   },
   "homepage": "https://github.com/camipozas/get-org-repo#readme",
   "volta": {
-    "node": "18.15.0",
-    "yarn": "1.22.19"
+    "node": "20.9.0",
+    "yarn": "1.22.22"
   },
   "devDependencies": {
     "@types/jest": "^29.5.0",
